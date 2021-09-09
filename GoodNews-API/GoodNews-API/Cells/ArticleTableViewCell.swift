@@ -13,4 +13,6 @@ class ArticleTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
+    #warning("Cria um método de setupView() com todos dados que precisa, exemplo => setupView(titleText: String?, descriptionText: String?)")
+    
 }

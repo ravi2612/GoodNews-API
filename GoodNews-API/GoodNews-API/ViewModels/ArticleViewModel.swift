@@ -12,6 +12,7 @@ struct ArticleListViewModel {
     let articles: [Article]
 }
 
+#warning("Não precisa dessa extension, ah não ser que tu va dividir por sessões da ViewModel")
 extension ArticleListViewModel {
     
     var numberOfSections: Int {
@@ -34,7 +35,7 @@ extension ArticleListViewModel {
 
 
 
-
+#warning("Não adicionar mais de um struct no mesmo arquivo, crie arquivos pra cada um")
 struct ArticleViewModel {
     private let article: Article
 }
